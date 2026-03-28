@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+    <nav> 
+        <a href="">icono</a>
+            <ul> 
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="pedido.html">Pedido</a></li>
+                <li><a href="faq.html">Preguntas Frecuentes</a></li>
+            </ul> 
+    </nav>
+    </header>
+    <h2>Realizar un pedido</h2>
+    <div>
+        <form>
+            <p>Tipo de pedido</p>
+            <select name="tipo" required>
+                <option value="">Seleccione una opción</option>
+                <option value="compra">Comprar auto</option>
+                <option value="mantenimiento">Mantenimiento</option>
+                <option value="venta">Vender mi auto</option>
+            </select>
+            <h3>Ingrese sus datos</h3>
+            <p>Nombre</p>
+            <input type="text" name="nombre" required>
+            <p>Apellido</p>
+            <input type="text" name="apellido" required>
+            <p>Email</p>
+            <input type="email" name="email" required>
+            <p>Número de celular</p>
+            <input type="tel" name="celular" required>
+            <p>Localidad</p>
+            <input type="text" name="localidad">
+            <p>Marca del vehículo</p>
+            <input type="text" name="marca" required>
+            <p>Modelo</p>
+            <input type="text" name="modelo" required>
+            <p>Año del vehículo</p>
+            <input type="number" name="anio" required>
+            <p>Deja tu mensaje..</p>
+            <textarea name="mensaje"></textarea>
+            <br> <!--salto de linea-->
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer>
+        <p> Copyright © 2026 Autos de Elite. Todos los derechos reservados. </p>
+    </footer>
+</body>
+</html>
