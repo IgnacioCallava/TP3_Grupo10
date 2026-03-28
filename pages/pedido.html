@@ -22,6 +22,7 @@
     <h2>Realizar un pedido</h2>
     <div>
         <form>
+            <h3>Ingrese sus datos:</h3>
             <p>Tipo de pedido</p>
             <select name="tipo" required>
                 <option value="">Seleccione una opción</option>
@@ -29,7 +30,6 @@
                 <option value="mantenimiento">Mantenimiento</option>
                 <option value="venta">Vender mi auto</option>
             </select>
-            <h3>Ingrese sus datos</h3>
             <p>Nombre</p>
             <input type="text" name="nombre" required>
             <p>Apellido</p>
@@ -44,6 +44,14 @@
             <input type="text" name="marca" required>
             <p>Modelo</p>
             <input type="text" name="modelo" required>
+            <p>Combustible</p>
+            <select name="tipo" required>
+                <option value="">Seleccione una opción</option>
+                <option value="nafta">Nafta</option>
+                <option value="diesel">Diesel</option>
+            </select>
+            <p>Color</p>
+            <input type="color">
             <p>Año del vehículo</p>
             <input type="number" name="anio" required>
             <p>Deja tu mensaje..</p>
