@@ -119,3 +119,14 @@ nav a:hover {
     line-height: 1.6;       /* Espaciado entre líneas para leer mejor */
     color: #555555;         /* Gris oscuro para jerarquía visual */
 }
+
+.form_pedido {
+    text-align: center;
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.h2_pedido {
+    text-align: center;
+}
