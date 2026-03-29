@@ -8,20 +8,29 @@
 </head>
 <body>
     <header>
-    <nav> 
-        <a href="">icono</a>
-            <ul> 
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="pedido.html">Pedido</a></li>
-                <li><a href="faq.html">Preguntas Frecuentes</a></li>
-            </ul> 
+        
+        <div id="logo">
+            <h1>Autos de Elite</h1>
+            <img 
+                src="../assests/favicon/IconoEmpresa.png" 
+                alt="Logo de Autos de Elite"
+            >
+        </div>
+    <nav>
+                <nav id="menu-links">
+                    <a href="../index.html">Inicio</a>
+                    <a href="../pages/servicios.html">Servicios</a>
+                    <a href="../pages/equipo.html">Equipo</a>
+                    <a href="../pages/pedido.html">Realizar pedido</a>
+                    <a href="../pages/contacto.html">Consultas</a>
+                    <a href="../pages/faq.html">Preguntas frecuentes</a>
+                </nav>
     </nav>
     </header>
     <h2>Realizar un pedido</h2>
     <div>
         <form>
+            <h3>Ingrese sus datos:</h3>
             <p>Tipo de pedido</p>
             <select name="tipo" required>
                 <option value="">Seleccione una opción</option>
@@ -29,7 +38,6 @@
                 <option value="mantenimiento">Mantenimiento</option>
                 <option value="venta">Vender mi auto</option>
             </select>
-            <h3>Ingrese sus datos</h3>
             <p>Nombre</p>
             <input type="text" name="nombre" required>
             <p>Apellido</p>
@@ -44,6 +52,14 @@
             <input type="text" name="marca" required>
             <p>Modelo</p>
             <input type="text" name="modelo" required>
+            <p>Combustible</p>
+            <select name="combustible" required>
+                <option value="">Seleccione una opción</option>
+                <option value="nafta">Nafta</option>
+                <option value="diesel">Diesel</option>
+            </select>
+            <p>Color</p>
+            <input type="color" name="color">
             <p>Año del vehículo</p>
             <input type="number" name="anio" required>
             <p>Deja tu mensaje..</p>
