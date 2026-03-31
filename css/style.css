@@ -130,3 +130,14 @@ nav a:hover {
 .h2_pedido {
     text-align: center;
 }
+
+
+
+
+
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
