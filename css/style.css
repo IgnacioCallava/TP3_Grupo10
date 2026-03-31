@@ -195,3 +195,7 @@ nav a:hover {
     max-width: 45%;
     height: auto;
 }
+
+.radio_combustible {
+    border: none;
+}
