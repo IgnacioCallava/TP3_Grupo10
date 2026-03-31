@@ -161,3 +161,37 @@ nav a:hover {
 .card-description {
     padding: 15px;
 }
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#footer {
+    width: 100%;
+    background-color: var(--color-crema);
+    border-top: 4px solid var(--color-marron);
+    padding: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#footer p {
+    margin: 0;
+    color: var(--color-marron-oscuro);
+    font-family: var(--fuente-principal);
+    font-size: 0.9rem;
+}
+
+#img-inicio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#img-inicio img {
+    max-width: 45%;
+    height: auto;
+}
