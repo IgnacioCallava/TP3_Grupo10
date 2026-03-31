@@ -131,6 +131,13 @@ nav a:hover {
     text-align: center;
 }
 
-.radio_combustible {
-    border: none;
+
+
+
+
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
