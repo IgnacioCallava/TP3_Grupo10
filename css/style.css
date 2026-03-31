@@ -130,3 +130,7 @@ nav a:hover {
 .h2_pedido {
     text-align: center;
 }
+
+.radio_combustible {
+    border: none;
+}
