@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ignacio Ramirez Labadie",
+    "rol": "Gerente",
+    "foto": "gerente.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Juan Foricher",
+    "rol": "Mecanico",
+    "foto": "mecanico.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Ramiro Stallone",
+    "rol": "Vendedor",
+    "foto": "vendedor.png"
+  }
+]
