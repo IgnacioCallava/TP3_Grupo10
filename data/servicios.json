@@ -1,0 +1,108 @@
+
+[
+  {
+    "id": 1,
+    "nombre": "Cambio de Aceite y Filtros",
+    "descripcion": "Mantenimiento preventivo con aceite sintético de primera línea.",
+    "precio": 55000,
+    "categoria": "Taller"
+  },
+  {
+    "id": 2,
+    "nombre": "Tasación de Vehículo Usado",
+    "descripcion": "Evaluación mecánica y estética detallada para la compra de tu usado.",
+    "precio": 15000,
+    "categoria": "Comercial"
+  },
+  {
+    "id": 3,
+    "nombre": "Alineación y Balanceo",
+    "descripcion": "Ajuste de dirección y balanceo computarizado de las 4 ruedas.",
+    "precio": 28000,
+    "categoria": "Taller"
+  },
+  {
+    "id": 4,
+    "nombre": "Escaneo Computarizado",
+    "descripcion": "Diagnóstico electrónico de fallas en el motor y sistema eléctrico.",
+    "precio": 22000,
+    "categoria": "Taller"
+  },
+  {
+    "id": 5,
+    "nombre": "Cambio de Pastillas de Freno",
+    "descripcion": "Reemplazo de pastillas delanteras y traseras con repuestos originales.",
+    "precio": 85000,
+    "categoria": "Taller"
+  },
+  {
+    "id": 6,
+    "nombre": "Revisión Pre-VTV",
+    "descripcion": "Chequeo general de los puntos exigidos para aprobar la Verificación Técnica.",
+    "precio": 30000,
+    "categoria": "Taller"
+  },
+  {
+    "id": 7,
+    "nombre": "Recarga de Aire Acondicionado",
+    "descripcion": "Control de fugas y recarga de gas refrigerante para el sistema de climatización.",
+    "precio": 45000,
+    "categoria": "Taller"
+  },
+  {
+    "id": 8,
+    "nombre": "Limpieza de Inyectores",
+    "descripcion": "Limpieza por ultrasonido para mejorar el rendimiento y consumo del motor.",
+    "precio": 60000,
+    "categoria": "Taller"
+  },
+  {
+    "id": 9,
+    "nombre": "Tratamiento Acrílico",
+    "descripcion": "Pulido y sellado de la pintura para proteger la carrocería y dar brillo.",
+    "precio": 120000,
+    "categoria": "Estética"
+  },
+  {
+    "id": 10,
+    "nombre": "Lavado Premium y Detailing",
+    "descripcion": "Lavado al detalle de carrocería, motor y limpieza profunda de tapizados.",
+    "precio": 40000,
+    "categoria": "Estética"
+  },
+  {
+    "id": 11,
+    "nombre": "Gestoría: Transferencia Automotor",
+    "descripcion": "Trámites completos en el Registro del Automotor para cambio de titularidad.",
+    "precio": 95000,
+    "categoria": "Gestoría"
+  },
+  {
+    "id": 12,
+    "nombre": "Asesoramiento Venta 0km",
+    "descripcion": "Gestión comercial para la compra de unidades nuevas con financiación.",
+    "precio": 0,
+    "categoria": "Comercial"
+  },
+  {
+    "id": 13,
+    "nombre": "Cambio de Batería",
+    "descripcion": "Reemplazo de batería y testeo del alternador.",
+    "precio": 110000,
+    "categoria": "Taller"
+  },
+  {
+    "id": 14,
+    "nombre": "Reparación de Tren Delantero",
+    "descripcion": "Cambio de bujes, extremos y rótulas para eliminar ruidos y mejorar el andar.",
+    "precio": 180000,
+    "categoria": "Taller"
+  },
+  {
+    "id": 15,
+    "nombre": "Cambio de Kit de Distribución",
+    "descripcion": "Reemplazo de correa, tensores y bomba de agua por kilometraje.",
+    "precio": 250000,
+    "categoria": "Taller"
+  }
+]

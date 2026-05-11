@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ignacio Callava",
+    "mail": "nacho@ejemplo.com",
+    "fecha_registro": "2024-01-15",
+    "foto": "perfil_ignacio.png",
+    "ultimos_pedidos": [
+      { "id_servicio": 1, "fecha": "2024-04-10" },
+      { "id_servicio": 3, "fecha": "2025-02-28" },
+      { "id_servicio": 2, "fecha": "2025-01-05" }
+    ]
+  }
+]
