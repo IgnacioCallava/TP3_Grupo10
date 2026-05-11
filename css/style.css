@@ -199,3 +199,18 @@ nav a:hover {
 .radio_combustible {
     border: none;
 }
+
+/*Recuadro para contacto */
+.recuadro-negro {
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 20px auto;
+}
+.contenedor-contacto {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
