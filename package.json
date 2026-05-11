@@ -1,0 +1,30 @@
+{
+  "name": "tp1_grupo10",
+  "version": "1.0.0",
+  "description": "**Autos de Elite** es una página web desarrollada como parte del Trabajo Práctico N°1 de la materia Programación 3.\r El proyecto fue realizado utilizando **HTML y CSS básico**.\r El objetivo principal fue practicar la estructura de páginas web y estilos básicos, aplicando conceptos fundamentales de desarrollo frontend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgnacioCallava/TP1_Grupo10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgnacioCallava/TP1_Grupo10/issues"
+  },
+  "homepage": "https://github.com/IgnacioCallava/TP1_Grupo10#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.3.0",
+    "husky": "^9.1.7",
+    "nodemon": "^3.1.14"
+  }
+}
