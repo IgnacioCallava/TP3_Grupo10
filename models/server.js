@@ -1,3 +1,4 @@
+require('dotenv').config();
 const app = require('../app'); 
 
 // Usamos el puerto de Render, o el 3000 si estamos en la compu
