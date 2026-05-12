@@ -7,8 +7,7 @@ const { getPerfil } = require('./controllers/usuariosController');
 const app = express();
 
 app.use(cors());
-app.use(express.json());
-app.use(express.static('assets')); 
+app.use(express.json()); 
 
 app.get('/', (req, res) => {
     res.send('¡La API de la Concesionaria está en línea!');
