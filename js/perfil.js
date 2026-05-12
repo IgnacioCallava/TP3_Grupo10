@@ -7,7 +7,7 @@ try {
 
     contenedor.innerHTML = `
     <div class="card">
-        <img src="${usuario.foto}" alt="${usuario.nombre}" width="150">
+        <img src="https://tp3-grupo10-luea.onrender.com/${usuario.foto}" alt="${usuario.nombre}" width="150">
         <h2>${usuario.nombre}</h2>
         <p><strong>Email:</strong> ${usuario.mail}</p>
         <p><strong>Registro:</strong> ${usuario.fecha_registro}</p>
