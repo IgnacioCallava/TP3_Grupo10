@@ -3,18 +3,18 @@
     "id": 1,
     "nombre": "Ignacio Ramirez Labadie",
     "rol": "Gerente",
-    "foto": "gerente.png"
+    "foto": "../assets/persona/gerente.png"
   },
   {
     "id": 2,
     "nombre": "Juan Foricher",
     "rol": "Mecanico",
-    "foto": "mecanico.png"
+    "foto": "../assets/persona/mecanico.png"
   },
   {
     "id": 3,
     "nombre": "Ramiro Stallone",
     "rol": "Vendedor",
-    "foto": "vendedor.png"
+    "foto": "../assets/persona/vendedor.png"
   }
 ]

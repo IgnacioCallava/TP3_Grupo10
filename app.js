@@ -9,17 +9,13 @@ const app = express();
 app.use(cors());
 app.use(express.json()); 
 
-// Una ruta de prueba para ver en Render
 app.get('/', (req, res) => {
-    res.send('🚗 ¡La API de la Concesionaria está en línea!');
+    res.send('¡La API de la Concesionaria está en línea!');
 });
 
 app.get('/servicios', getServicios);
-
 app.get('/servicios/:id', getServicioById);
-
 app.get('/equipo', getEquipo);
-
 app.get('/perfil/:id', getPerfil);
 
 module.exports = app;
