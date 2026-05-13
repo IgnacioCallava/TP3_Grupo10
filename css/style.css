@@ -53,7 +53,7 @@ nav a:hover {
     font-weight: 700;
     letter-spacing: 1px;
     font-style: italic;
-    margin: 5px;
+    margin: 8px;
     background-color: #bfa100;
 }
 
@@ -76,16 +76,16 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch; /* <--- Obliga a todas las cards a tener el mismo alto */
-    gap: 30px;
+    gap: 32px;
     padding: 40px 20px;
 }
 
 .card {
     background-color: #ffffff;
-    width: 350px;
+    width: 352px;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
     display: flex;           /* <--- Permite control interno */
     flex-direction: column;  /* <--- Apila imagen y texto */
@@ -97,7 +97,7 @@ nav a:hover {
 }
 
 .card:hover {
-    transform: translateY(-10px); /* Al pasar el mouse, sube un poquito */
+    transform: translateY(-12px); /* Al pasar el mouse, sube un poquito */
 }
 
 /* 3. LA IMAGEN */
@@ -123,8 +123,8 @@ nav a:hover {
 .form_pedido {
     text-align: center;
     border: solid 2px black;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 12px;
+    border-radius: 12px;
 }
 
 .h2_pedido {
@@ -142,7 +142,7 @@ nav a:hover {
 
 /* Estilo de la tarjeta */
 .card {
-    width: 250px;
+    width: 248px;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -159,7 +159,7 @@ nav a:hover {
 }
 
 .card-description {
-    padding: 15px;
+    padding: 16px;
 }
 
 #logo {
@@ -192,7 +192,7 @@ nav a:hover {
 }
 
 #img-inicio img {
-    max-width: 45%;
+    max-width: 44%;
     height: auto;
 }
 
@@ -203,8 +203,8 @@ nav a:hover {
 /*Recuadro para contacto */
 .recuadro-negro {
     border: 2px solid black;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 16px;
+    border-radius: 12px;
     background-color: #ffffff;
     max-width: 600px;
     margin: 20px auto;
